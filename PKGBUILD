@@ -10,7 +10,7 @@ license=('MIT')
 depends=('python')
 makedepends=('python-setuptools')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/conan-io/python-patch-ng/archive/refs/tags/${pkgver}.tar.gz")
-b2sum=("78067e3c3d296a21f8fd4155fe770245ba4457cb9e37003f5e7667c30827878a8c06d62c77bb1fdaf61b96a813612a7c39800d7040b13a9d18f0baeccbd86ba1")
+b2sums=("78067e3c3d296a21f8fd4155fe770245ba4457cb9e37003f5e7667c30827878a8c06d62c77bb1fdaf61b96a813612a7c39800d7040b13a9d18f0baeccbd86ba1")
 
 build() {
   cd "$srcdir/${pkgname}-${pkgver}"
